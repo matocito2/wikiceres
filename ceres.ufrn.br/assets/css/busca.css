@@ -1,0 +1,389 @@
+/*
+*  CSS Document - busca google
+*  Autor: Andressa Kroeff Pires (SINFO)
+*  E-mail: andressa@info.ufrn.br
+*  Data: 07/04/2011
+*
+*  Ultima atualizacao realizada por: Felipe, Andressa
+*  Data de atualizacao: 05/01/2016
+*/
+
+#conteudo {
+    display: inline-block;
+    width: 100%;
+    min-height: 467px;
+    margin-left: 30px;
+}
+#conteudo .titulo_busca {
+    display: block;
+    height: 10px;
+    width: 635px;
+}
+#conteudo .titulo_busca h3 {
+    display: inline-block;
+    min-width: 80px;
+    height: 25px;
+    background: #FFF;
+    text-transform: uppercase;
+    color: #004a82;
+    font-size: 18px;
+    position: absolute;
+    margin-top: -12px;
+    padding-right: 20px;
+}
+
+#cse .gsc-control-cse, .gsc-control-cse {
+	width: 100%;
+	padding: 1% 0 0;
+}
+#cse .gsc-control-cse, .gsc-control-cse {
+		font-family: sans-serif;
+		font-size: 9pt;
+		border-color: #ffffff;
+		background-color: #ffffff;
+		color: #505050;
+	}
+
+form.gsc-search-box.gsc-search-box-tools {
+  height: 40px;
+}
+form.gsc-search-box.gsc-search-box-tools>table {
+  height: inherit;
+}
+form.gsc-search-box.gsc-search-box-tools>table>tbody {
+  height: inherit;
+}
+form.gsc-search-box.gsc-search-box-tools>table>tbody>tr {
+  display: flex;
+  height: inherit;
+}
+form.gsc-search-box.gsc-search-box-tools>table>tbody>tr>td.gsc-input {
+  height: inherit;
+  padding: 0;
+  display: block;
+  flex-grow: 1;
+}
+td.gsc-input>.gsc-input-box {
+  height: inherit;
+}
+td.gsc-input>.gsc-input-box>table {
+  height: inherit;
+  display: block;
+  height: 100%;
+}
+td.gsc-input>.gsc-input-box>table>tbody  {
+  display: block;
+  height: 100%;
+}
+td.gsc-input>.gsc-input-box>table>tbody>tr  {
+  display: block;
+  height: 100%;
+  position: relative;
+}
+.gsib_a {
+  display: block;
+  height: 100%;
+  padding: 0;
+}
+.gsib_a > input {
+  height: inherit !important;
+  background: none;
+}
+.gsib_b {
+  position: absolute;
+  right: 7px;
+  top: 7px;
+}
+
+	/* tamanho textos */
+	#cse .gs-title, .gs-title, #cse div.gs-title, div.gs-title, #cse .gs-snippet, .gs-snippet {
+		font-size: 10pt;
+		line-height: 18px;
+	}
+  #cse .gs-title {
+    height: 1.4em;
+  }
+  #cse .gs-title, #cse .gs-title b  {
+    text-decoration: none;
+  }
+	#cse input.gsc-input, input.gsc-input {
+	    width: 100%;
+	    height: 40px;
+	    border: 1px solid #e1e1e1;
+	    color: #aaaaaa;
+      padding-left: 10px !important;
+	    border-radius: 0;
+	    font-family: sans-serif;
+	}
+
+	#cse td.gsc-search-button {
+    flex-basis: 100px;
+  }
+	#cse td.gsc-search-button button {
+    text-transform: uppercase;
+    font-weight: normal;
+    width: 100%;
+  	height: 40px;
+    background-color: #46bab2;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0;
+    font-family: sans-serif;
+    font-size: 14px;
+	}
+
+	#cse td.gsc-search-button button:hover {
+	    background: #399790;
+	}
+
+#cse	div.gsc-clear-button {
+		margin-left: 6px;
+		margin-right: 2px;
+		padding-left: 7px;
+	}
+
+.gsc-above-wrapper-area {
+	border: none !important;
+}
+
+#cse .gsc-wrapper,
+#cse .gsc-thinWrapper {
+		display: block;
+		float: none;
+		margin: 0px auto;
+		padding: 0 5px 0 0;
+		width: 98%;
+		color: #505050;
+	}
+
+#cse	.gsc-adBlock, #cse .gsc-adBlockVertical {
+		display: none;
+		float: none;
+	}
+
+  .gs-webResult.gs-result.gs-no-results-result {
+    border: none;
+    display: block;
+    width: 100%;
+    border-radius: 0px;
+    background-color: white;
+    color: #a94442;
+    border: 2px solid #a94442;
+  }
+  .gs-webResult.gs-result.gs-no-results-result > .gs-snippet {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: none;
+    border: none;
+    margin: 0;
+    text-align: center;
+    font-size: 14px !important;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #c44b4d !important;
+  }
+	.gsc-tabHeader.gsc-tabhInactive {
+		border-color: #CFDFF7;
+		background-color: #FFFFFF;
+	}
+	.gsc-tabHeader.gsc-tabhActive {
+		border-color: #CFDFF7;
+		background-color: #CFDFF7;
+	}
+	.gsc-tabsArea {
+		border-color: #BADBF4;
+	}
+
+	.gsc-webResult.gsc-result {
+		font-size: 9pt;
+		font-family: sans-serif;
+		border: none;
+		background-color: #FFFFFF;
+	}
+
+	.gsc-table-result,
+  .gsc-thumbnail-inside,
+  .gsc-url-top {
+    padding: 0;
+  }
+
+  .gs-image-box.gs-web-image-box.gs-web-image-box-portrait {
+    height: auto;
+    width: auto;
+    margin-right: 5px;
+  }
+
+	#cse .gs-title,
+  .gs-title,
+  #cse div.gs-title,
+  div.gs-title,
+  #cse .gs-snippet,
+  .gs-snippet,
+  #cse .gs-spelling,
+  .gs-spelling {
+		font-size: 9pt;
+		font-family: sans-serif;
+		font-style: normal;
+	}
+
+	#cse .gs-webResult.gs-result a.gs-title:link,
+  .gs-webResult.gs-result a.gs-title:link,
+  #cse .gs-webResult.gs-result a.gs-title:link b,
+  .gs-webResult.gs-result a.gs-title:link b,
+  #cse .gs-webResult.gs-result a.gs-title:visited,
+  .gs-webResult.gs-result a.gs-title:visited,
+  #cse .gs-webResult.gs-result a.gs-title:visited b,
+  .gs-webResult.gs-result a.gs-title:visited b,
+  #cse .gs-webResult.gs-result a.gs-title:hover,
+  .gs-webResult.gs-result a.gs-title:hover,
+  #cse .gs-webResult.gs-result a.gs-title:hover b,
+  .gs-webResult.gs-result a.gs-title:hover b,
+  #cse .gs-webResult.gs-result a.gs-title:active,
+  .gs-webResult.gs-result a.gs-title:active,
+  #cse .gs-webResult.gs-result a.gs-title:active b,
+  .gs-webResult.gs-result a.gs-title:active b,
+  #cse a.gsc-trailing-more-results:link,
+  a.gsc-trailing-more-results:link,
+  #cse .gs-spelling a,
+  .gs-spelling a {
+    	color: #46bab2 !important;
+		font-weight: bold;
+		font-style: normal;
+		font-size: 15px;
+	}
+
+.cse .gsc-webResult.gsc-result:hover,
+.gsc-webResult.gsc-result:hover,
+.gsc-webResult.gsc-result.gsc-promotion:hover,
+.gsc-results .gsc-imageResult-classic:hover,
+.gsc-results .gsc-imageResult-column:hover {
+  border: none;
+}
+
+	a.gs-title,
+  a.gs-title:hover,
+  a.gs-title:link,
+  a.gs-title:visited,
+  a.gs-title:active,
+  a.gs-title:hover b,
+  a.gs-title:link b,
+  a.gs-title:visited b,
+  a.gs-title:active b {
+		color: #006ABA !important;
+		font-weight: bold;
+	}
+	.gsc-cursor-page {
+		color: #006ABA;
+	}
+	a.gsc-trailing-more-results:link {
+		color: #006ABA;
+	}
+
+	.gs-webResult.gs-result .gs-snippet {
+		font-size: 14px;
+		color: #505050;
+		margin-bottom: 2px;
+		line-height: 1.2;
+	}
+	.gs-webResult.gs-result .gs-visibleUrl {
+		color: #46bab2;
+    	text-decoration: underline;
+	}
+	.gs-image-box {
+		width: 98px;
+	}
+	.gs-web-image-box img.gs-image, .gs-promotion-image-box img.gs-promotion-image {
+	    max-width: 90px;
+	}
+	.gs-webResult.gs-result .gs-visibleUrl-short {
+		color: #589BDB;
+	}
+
+	.gs-webResult.gs-result .gs-visibleUrl-short {
+		display: none;
+	}
+	.gs-webResult.gs-result .gs-visibleUrl-long {
+		display: block;
+	}
+	.gsc-cursor-box {
+		border-color: #B9DAF4;
+	}
+	.gsc-results .gsc-cursor-page {
+		width: 25px;
+	    height: 25px;
+	    border-radius: 0px;
+	    border: solid 1px #ddd;
+	    background-color: #ffffff;
+	    color: #46bab2 !important;
+	    text-align: center;
+	    font-weight: bold;
+	    font-size: 14px;
+	    padding: 8px 12px;
+	    text-decoration: none !important;
+	    font-family: sans-serif!important;
+	}
+	.gsc-results .gsc-cursor-page:hover {
+		background-color: #eee;
+	}
+	.gsc-results .gsc-cursor-page.gsc-cursor-current-page {
+		width: 25px;
+	    height: 25px;
+	    border-radius: 0px;
+	    border: none;
+	    background-color: #46bab2 !important;
+    	color: #ffffff !important;
+	    text-align: center;
+	    font-weight: bold;
+	    font-size: 14px;
+	    padding: 9px 13px;
+	    text-shadow: none !important;
+	    font-family: sans-serif!important;
+	}
+	.gsc-results .gsc-cursor-page.gsc-cursor-current-page:hover{
+		background-color: #399790!important;
+	}
+	.gsc-results .gsc-cursor-box .gsc-cursor-page{
+		margin-right: -1px;
+	}
+	.gs-promotion.gs-result {
+		border-color: #006ABA;
+		background-color: #EEF8FB;
+	}
+	.gs-promotion.gs-result a.gs-title:link {
+	color: #006ABA;
+	}
+	.gs-promotion.gs-result a.gs-title:visited {
+		color: #006ABA;
+	}
+	.gs-promotion.gs-result a.gs-title:hover {
+		color: #006ABA;
+	}
+	.gs-promotion.gs-result a.gs-title:active {
+		color: #006ABA;
+	}
+	.gs-promotion.gs-result .gs-snippet {
+		color: #505050;
+	}
+	.gs-promotion.gs-result .gs-visibleUrl,
+	.gs-promotion.gs-result .gs-visibleUrl-short {
+		color: #589BDB;
+	}
+
+	#cse .gsc-webResult,
+  .gsc-webresult .gsc-result,
+  .gsc-imageResult-classic,
+  .gsc-imageResult-column {
+	    padding: .6em 0 1em 0;
+	    margin-bottom: .4em;
+    	border-color: #B9DAF4;
+	}
+
+	.gsc-results.gsc-webResult {
+		border-bottom: none !important;
+	}
+
+  .gsc-cursor-box.gs-bidi-start-align {
+    display: flex;
+    justify-content: center;
+  }

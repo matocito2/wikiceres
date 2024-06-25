@@ -1,0 +1,78 @@
+/* Alterações na barra do governo */
+#barra-brasil {
+  position: relative;
+  z-index: 1005;
+  transition: opacity 500ms linear 0ms, margin 250ms linear 0ms;
+}
+
+  #barra-brasil #wrapper-barra-brasil {
+    width: auto;
+    margin: 0 15px;
+  }
+  @media (min-width: 768px) {
+    #barra-brasil #wrapper-barra-brasil {
+      max-width: 750px;
+      width: 100% !important;
+      margin: 0 auto !important;
+    }
+  }
+  @media (min-width: 992px) {
+    #barra-brasil #wrapper-barra-brasil {
+      max-width: 945px;
+    }
+  }
+  @media (min-width: 1200px) {
+    #barra-brasil #wrapper-barra-brasil {
+      max-width: 1145px;
+    }
+  }
+
+    #barra-brasil .brasil-flag a {
+      padding-left: 34px !important;
+      background-position: 0px !important;
+    }
+    #barra-brasil #brasil-vlibras .link-vlibras {
+      line-height: 1.6;
+      text-align: center;
+    }
+    #barra-brasil #brasil-vlibras a.logo-vlibras {
+      color: inherit;
+      background-position: 14px !important;
+    }
+    #barra-brasil .acesso-info {
+      left: 120px !important;
+    }
+
+
+    #barra-brasil nav:active ul.list,
+    #barra-brasil nav:focus ul.list,
+    #barra-brasil nav:hover ul.list {
+      height: auto !important;
+    }
+    #barra-brasil .brasil-flag .link-barra,
+    #barra-brasil .link-barra,
+    #barra-brasil .list-item a,
+    #barra-brasil #brasil-vlibras .link-vlibras span,
+    #barra-brasil #brasil-vlibras .link-vlibras a {
+      font-weight: bold;
+      font-size: 13px;
+    }
+    #barra-brasil #brasil-vlibras .link-vlibras span {
+      display: block;
+      width: 100%;
+      line-height: 1.6em;
+      margin-top: -15px;
+      text-align: left;
+    }
+      #barra-brasil #brasil-vlibras .link-vlibras span a:hover {
+        text-decoration: underline;
+      }
+      #barra-brasil #brasil-vlibras .logo-vlibras:hover+.link-vlibras,
+      #barra-brasil #brasil-vlibras .logo-vlibras:active+.link-vlibras,
+      #barra-brasil #brasil-vlibras .logo-vlibras:focus+.link-vlibras,
+      #barra-brasil #brasil-vlibras .link-vlibras:hover,
+      #barra-brasil #brasil-vlibras .link-vlibras:active,
+      #barra-brasil #brasil-vlibras .link-vlibras:focus {
+        z-index: 1006 !important;
+        max-width: 116px !important;
+      }
